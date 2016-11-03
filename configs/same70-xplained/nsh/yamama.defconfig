@@ -43,7 +43,41 @@ CONFIG_RAW_BINARY=y
 # Debug Options
 #
 CONFIG_DEBUG_ALERT=y
-# CONFIG_DEBUG_FEATURES is not set
+CONFIG_DEBUG_FEATURES=y
+
+#
+# Debug SYSLOG Output Controls
+#
+# CONFIG_DEBUG_ERROR is not set
+# CONFIG_DEBUG_ASSERTIONS is not set
+
+#
+# Subsystem Debug Options
+#
+# CONFIG_DEBUG_BINFMT is not set
+# CONFIG_DEBUG_FS is not set
+# CONFIG_DEBUG_GRAPHICS is not set
+# CONFIG_DEBUG_LIB is not set
+# CONFIG_DEBUG_MM is not set
+# CONFIG_DEBUG_SCHED is not set
+
+#
+# OS Function Debug Options
+#
+# CONFIG_DEBUG_DMA is not set
+# CONFIG_DEBUG_IRQ is not set
+
+#
+# Driver Debug Options
+#
+# CONFIG_DEBUG_LEDS is not set
+# CONFIG_DEBUG_CAN is not set
+CONFIG_DEBUG_GPIO=y
+CONFIG_DEBUG_I2C=y
+# CONFIG_DEBUG_PWM is not set
+CONFIG_DEBUG_MEMCARD=y
+CONFIG_DEBUG_SPI=y
+CONFIG_DEBUG_TIMER=y
 CONFIG_ARCH_HAVE_STACKCHECK=y
 # CONFIG_STACK_COLORATION is not set
 # CONFIG_ARCH_HAVE_HEAPCHECK is not set
