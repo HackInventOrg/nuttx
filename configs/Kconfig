@@ -1464,7 +1464,7 @@ config ARCH_BOARD
 	default "sam4l-xplained"           if ARCH_BOARD_SAM4L_XPLAINED
 	default "sam4s-xplained"           if ARCH_BOARD_SAM4S_XPLAINED
 	default "sam4s-xplained-pro"       if ARCH_BOARD_SAM4S_XPLAINED_PRO
-	default "same70-xplained"          if ARCH_BOARD_SAME70_XPLAINED
+	default "px4-same70xplained"          if ARCH_BOARD_SAME70_XPLAINED
 	default "samv71-xult"              if ARCH_BOARD_SAMV71_XULT
 	default "shenzhou"                 if ARCH_BOARD_SHENZHOU
 	default "skp16c26"                 if ARCH_BOARD_SKP16C26
@@ -1802,7 +1802,7 @@ if ARCH_BOARD_SAM4S_XPLAINED_PRO
 source "configs/sam4s-xplained-pro/Kconfig"
 endif
 if ARCH_BOARD_SAME70_XPLAINED
-source "configs/same70-xplained/Kconfig"
+source "configs/px4-same70xplained/Kconfig"
 endif
 if ARCH_BOARD_SAMV71_XULT
 source "configs/samv71-xult/Kconfig"
